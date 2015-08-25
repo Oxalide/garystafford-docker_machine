@@ -1,0 +1,34 @@
+{
+  "author": "Gary A. Stafford",
+  "dependencies": [],
+  "license": "Apache-2.0",
+  "name": "garystafford-docker_machine",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "12.04",
+        "15.04"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    }
+  ],
+  "project_page": "https://github.com/garystafford/garystafford-docker_machine",
+  "requirements": [],
+  "source": "https://github.com/garystafford/garystafford-docker_machine",
+  "issues_url": "https://github.com/garystafford/garystafford-docker_machine/issues",
+  "summary": "Downloads and installs Docker Machine",
+  "tags": [
+    "Docker",
+    "Machine",
+    "docker-machine"
+  ],
+  "version": "0.1.0"
+}
