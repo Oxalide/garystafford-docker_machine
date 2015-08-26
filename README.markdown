@@ -29,9 +29,9 @@ class { 'docker_machine':
 ```sh
 which docker-machine 
 ```
-should return: `/usr/local/bin/docker-machine'
+Should return: `/usr/local/bin/docker-machine'
 
 ```sh
 docker-machine --version
 ```
-should return: `docker-machine version 0.4.1 (e2c88d6)`
+Should return: `docker-machine version 0.4.1 (e2c88d6)`
