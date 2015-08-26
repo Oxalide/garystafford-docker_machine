@@ -1,6 +1,6 @@
 ## Install Docker Machine
 
-Puppet module for downloading and installing [Docker Machine](https://docs.docker.com/machine/install/).
+Puppet module for downloading and installing [Docker Machine](https://docs.docker.com/machine/install-machine/).
 
 #### Support
 
