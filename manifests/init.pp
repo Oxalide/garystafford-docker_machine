@@ -28,8 +28,6 @@ class docker_machine (
   $version       = $docker_machine::params::version,
   $download_file = $docker_machine::params::download_file) inherits 
 docker_machine::params {
-  package { 'curl': ensure => 'installed' }
-
   exec { 'download-docker-machine':
     command => "curl -L https://github.com/docker/machine/releases/download/${version}/${download_file} > /tmp/docker-machine",
     user    => root,
