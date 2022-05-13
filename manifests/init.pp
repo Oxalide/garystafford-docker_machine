@@ -20,8 +20,7 @@
 #   include 'docker_machine'
 #   class { 'docker_machine': }
 #   class { 'docker_machine':
-#     version       => 'v0.4.1'
-#     download_file => 'docker-machine_linux-amd64'
+#     download_file => 'docker-machine-Linux-x86_64'
 #   }
 #
 class docker_machine (
@@ -29,7 +28,7 @@ class docker_machine (
   $download_file = $docker_machine::params::download_file) inherits 
 docker_machine::params {
   exec { 'download-docker-machine':
-    command => "curl -L https://github.com/docker/machine/releases/download/${version}/${download_file} > /tmp/docker-machine",
+    command => "curl -L https://gitlab-docker-machine-downloads.s3.amazonaws.com/main/${download_file} > /tmp/docker-machine",
     user    => root,
     creates => '/tmp/bin/docker-machine'
   } ->

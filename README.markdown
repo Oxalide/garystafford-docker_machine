@@ -20,8 +20,7 @@ class { 'docker_machine': }
 ```
 ```puppet
 class { 'docker_machine': 
-  version => 'v0.4.1'
-  download_file => 'docker-machine_linux-amd64'
+  download_file => 'docker-machine-Linux-x86_64'
 }
 ```
 
@@ -32,6 +31,3 @@ which docker-machine
 Should return: `/usr/local/bin/docker-machine`
 
 ```sh
-docker-machine --version
-```
-Should return: `docker-machine version 0.4.1 (e2c88d6)`
